@@ -4,7 +4,7 @@ if (process.env.CI !== "true") {
   dotenv.config({ path: "env/.env" });
 }
 
-const requiredVars = ["SERVICE_URL"];
+const requiredVars = ['SERVICE_URL'];
 
 // Check for missing variables
 requiredVars.forEach((varName) => {
